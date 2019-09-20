@@ -24,13 +24,13 @@ public class Arithmetic
     }
     float div(int a, int b)
     {
-        int c;
-        c=a/b;
+        float c;
+        c=(float)a/b;
         return c;
     }
-    int mod(int a, int b)
+    float mod(int a, int b)
     {
-        int c;
+        float c;
         c=a%b;
         return c;
     }
